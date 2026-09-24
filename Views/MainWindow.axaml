@@ -7,7 +7,7 @@
         x:Class="budujemyoknorecznie.Views.MainWindow"
         x:DataType="vm:MainViewModel"
         Icon="/Assets/avalonia-logo.ico"
-        Title="budujemyoknorecznie">
+        Title="Aplikacja Test LaLaLaLa">
 
     <Design.DataContext>
         <!-- This only sets the DataContext for the previewer in an IDE,

@@ -5,5 +5,5 @@ namespace budujemyoknorecznie.ViewModels;
 public partial class MainViewModel : ViewModelBase
 {
     [ObservableProperty]
-    public partial string Greeting { get; set; } = "Welcome to Avalonia!";
+    private string greeting = "Welcome to Avalonia!";
 }
