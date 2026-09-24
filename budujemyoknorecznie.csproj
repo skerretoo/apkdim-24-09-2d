@@ -7,6 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <!-- Exclude nested okno/ sample project: it has its own csproj + Main(),
+         otherwise its sources get compiled into this assembly (CS0017). -->
+    <Compile Remove="okno\**" />
+    <EmbeddedResource Remove="okno\**" />
+    <AvaloniaXaml Remove="okno\**" />
+    <None Remove="okno\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Models\" />
     <AvaloniaResource Include="Assets\**" />
   </ItemGroup>
